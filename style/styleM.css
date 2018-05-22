@@ -1,0 +1,45 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.navigation
+{
+    position: absolute;
+}
+.link
+{
+    margin-right: 15px;
+    /* font-family:  */
+}
+.Title
+{
+    font-family: "fa-solid-900";
+    font-size: 60px;
+    text-shadow: 2px 2px 4px;
+}
+.headerImage
+{
+    height: 700px;
+    position: sticky;
+    background-position-x: 50%;
+    z-index: -1;
+    /* padding: 0px;
+    margin: 0px; */
+    background-image: url("/images/header.jpg");
+    background-repeat: no-repeat;
+    /* background-size: auto;
+   
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+}
+#Menu
+{
+    
+    background-color: rgba(245, 245, 245, 0.4);
+    /* background-blend-mode: screen; */
+    background-blend-mode: exclusion;
+    fill-opacity: inherit;
+}
