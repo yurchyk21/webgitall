@@ -1,0 +1,65 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background: 
+    linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+html {
+    height: 100%;
+    z-index: -2;
+	/*Image only BG fallback*/
+	
+	/*background = gradient + image pattern combo*/
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+.Title
+{
+    font-family: "fa-solid-900";
+    font-size: 60px;
+    text-shadow: 2px 2px 4px;
+
+}
+.mini-menu
+{
+    background-color: aliceblue;
+}
+.container div
+{
+    z-index: 1;
+}
+.bg-blur
+{
+    height: 700px;
+    background-position-x: 50%;
+    z-index: -2;
+    background-image:url("/images/header.jpg");
+    background-repeat: no-repeat;
+    filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    clip: rect(200px,200px,200px,5px);
+    
+}
+.headerImage 
+{
+    height: 700px;
+    background-position-x: 50%;
+    z-index: 1;
+    background-image:url("/images/header.jpg");
+    background-repeat: no-repeat;
+
+}
+#Menu
+{
+    
+    background-color: rgba(245, 245, 245, 0.4);
+    /* background-blend-mode: screen; */
+    background-blend-mode: exclusion;
+    fill-opacity: inherit;
+    
+}
