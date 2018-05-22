@@ -185,3 +185,5 @@ pip-log.txt
 
 # Automatically generated typescript compiler args files
 __*.tscargs.txt
+
+.vscode
