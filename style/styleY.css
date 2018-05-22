@@ -1,3 +1,22 @@
-.cars{
-    
+.headerImage 
+{
+    background-image:url("/images/Tesla_X.jpg");
+}
+
+.main-block{
+    margin-top: 70px;
+}
+
+.descr{
+    margin-top: 20px; 
+}
+
+.car-img{
+    padding: 0px;
+
+}
+
+.side{
+    background-color: black;
+    width:100%;
 }
