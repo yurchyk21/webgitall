@@ -3,9 +3,9 @@
     background-image:url("/images/Tesla_X.jpg");
 }
 
-.main-block{
-    margin-top: 70px;
-}
+ .main-block{
+    padding-top: 70px;
+}  
 
 .descr{
     margin-top: 20px; 
@@ -17,6 +17,20 @@
 }
 
 .side{
+    margin-top: 0px;
     background-color: black;
     width:100%;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.side h3{
+    margin-left: 5px;
+    font-weight: bold;
+    color: white;
+}
+.side ul li span:first-child { 
+    color: grey;
+}
+.side ul li span:nth-child(2) { 
+    color: white;
 }
