@@ -2,15 +2,18 @@ body
 {
     padding: 0px;
     margin: 0px;
+    height: 100%;
+    background: 
+    linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 }
-.navigation
-{
-    position: absolute;
-}
-.link
-{
-    margin-right: 15px;
-    /* font-family:  */
+html {
+    height: 100%;
+    z-index: -2;
+	/*Image only BG fallback*/
+	
+	/*background = gradient + image pattern combo*/
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 }
 .Title
 {
@@ -23,22 +26,33 @@ body
 {
     background-color: aliceblue;
 }
-.headerImage
+.container div
+{
+    z-index: 1;
+}
+.bg-blur
 {
     height: 700px;
-    position: sticky;
     background-position-x: 50%;
-    z-index: -1;
-    /* padding: 0px;
-    margin: 0px; */
-    background-image: url("/images/header.jpg");
+    z-index: -2;
+    background-image:url("/images/header.jpg");
     background-repeat: no-repeat;
-    /* background-size: auto;
-   
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; */
+    filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    clip: rect(200px,200px,200px,5px);
+    
+}
+.headerImage 
+{
+    height: 700px;
+    background-position-x: 50%;
+    z-index: 1;
+    background-image:url("/images/header.jpg");
+    background-repeat: no-repeat;
+
 }
 #Menu
 {
