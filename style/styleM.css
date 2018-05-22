@@ -15,6 +15,18 @@ html {
 	background: 
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 }
+.row-header
+{
+    background-size: 1920px;
+    background-color: rgba(245, 245, 245, 0.2);
+    height: 100px ;
+    width: 100%;
+    background-position-x: 50%;
+    background-repeat: repeat-x;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 1px 5px 5px;
+} 
 .Title
 {
     font-family: "fa-solid-900";
@@ -30,24 +42,29 @@ html {
 {
     z-index: 1;
 }
-.bg-blur
+@media (min-width: 200px)
 {
-    height: 700px;
-    background-position-x: 50%;
-    z-index: -2;
-    background-image:url("/images/header.jpg");
-    background-repeat: no-repeat;
-    filter: blur(5px);
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-    clip: rect(200px,200px,200px,5px);
-    
+   .headerImage
+    {
+     background-size: 100%;
+     height:100%;
+   }
 }
+@media (min-width: 568px)
+{
+   #Menu
+    {
+   background-color: rgba(245, 245, 245, 0.2);
+    background-blend-mode: screen;
+    background-blend-mode: exclusion;
+    fill-opacity: inherit; 
+    float: left;
+   }
+}
+
 .headerImage 
 {
-    height: 700px;
+    
     background-position-x: 50%;
     z-index: 1;
     background-image:url("/images/header.jpg");
@@ -57,9 +74,9 @@ html {
 #Menu
 {
     
-    background-color: rgba(245, 245, 245, 0.4);
-    /* background-blend-mode: screen; */
+    /* background-color: rgba(245, 245, 245, 0.2);
+     background-blend-mode: screen;
     background-blend-mode: exclusion;
-    fill-opacity: inherit;
+    fill-opacity: inherit; */
     
 }
