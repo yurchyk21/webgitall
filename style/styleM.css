@@ -12,6 +12,7 @@ html {
 	background: 
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 }
+
 .row-header
 {
     background-size: 1920px;
@@ -20,7 +21,7 @@ html {
     width: 100%;
     background-position-x: 50%;
     background-repeat: repeat-x;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     box-shadow: 1px 5px 5px;
 } 
