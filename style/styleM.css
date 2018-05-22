@@ -17,6 +17,11 @@ body
     font-family: "fa-solid-900";
     font-size: 60px;
     text-shadow: 2px 2px 4px;
+
+}
+.mini-menu
+{
+    background-color: aliceblue;
 }
 .headerImage
 {
@@ -42,4 +47,5 @@ body
     /* background-blend-mode: screen; */
     background-blend-mode: exclusion;
     fill-opacity: inherit;
+    
 }
