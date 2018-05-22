@@ -9,9 +9,6 @@ body
 html {
     height: 100%;
     z-index: -2;
-	/*Image only BG fallback*/
-	
-	/*background = gradient + image pattern combo*/
 	background: 
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 }
@@ -29,9 +26,11 @@ html {
 } 
 .Title
 {
+    color: black;
     font-family: "fa-solid-900";
     font-size: 60px;
     text-shadow: 2px 2px 4px;
+
 
 }
 .mini-menu
@@ -42,7 +41,7 @@ html {
 {
     z-index: 1;
 }
-@media (min-width: 200px)
+@media (max-width: 768px)
 {
    .headerImage
     {
@@ -50,18 +49,38 @@ html {
      height:100%;
    }
 }
-@media (min-width: 568px)
+@media (min-width: 500px)
 {
-   #Menu
+   .headerImage
     {
-   background-color: rgba(245, 245, 245, 0.2);
-    background-blend-mode: screen;
-    background-blend-mode: exclusion;
-    fill-opacity: inherit; 
-    float: left;
+     background-size: 100%;
+     height:300px;
    }
 }
-
+@media (min-width: 400px)
+{
+   .headerImage
+    {
+     background-size: 100%;
+     height:200px;
+   }
+}
+@media (min-width: 200px)
+{
+   .headerImage
+    {
+     background-size: 100%;
+     height:100px;
+   }
+}
+/* @media (min-width: 200px)
+{
+   .headerImage
+    {
+     background-size: 100%;
+     height:700px;
+   }
+} */
 .headerImage 
 {
     
@@ -69,6 +88,7 @@ html {
     z-index: 1;
     background-image:url("/images/header.jpg");
     background-repeat: no-repeat;
+    height:700px;
 
 }
 #Menu
