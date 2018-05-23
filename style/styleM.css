@@ -47,7 +47,7 @@ html {
 {
     
     background-position-x: 50%;
-    background-size: cor;
+    background-size: cover;
     z-index: 1;
     background-image:url("/images/header.jpg");
     background-repeat: no-repeat;
