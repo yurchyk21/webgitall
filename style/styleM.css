@@ -40,20 +40,25 @@
     background-color: rgba(245, 245, 245, 0.2);
     height: 100px ;
     width: 100%;
-
     background-repeat: repeat-x;
     position: absolute;
     z-index: 0;
     box-shadow: 1px 5px 5px;
 } 
+.small_image:hover
+{
+    background-size: 120%;
+    transition: all 1s;
+}
 .small_image
 {
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: 10px;
     padding-left: 20px;
     color: white;
+    transition: all 1s;
 
 }
 .fa-gradient {
@@ -61,25 +66,47 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
-.icon i
+button
+{
+    size:100%;
+    transition: all 1s;
+}
+button:hover
+{
+    size:90%;
+    transition: all 1s;
+}
+i
 {
     font-size: 5em;
+    transition: all 1s;
+
+}
+i:hover
+{
+    font-size: 6em;
+    transition: all 1s;
 }
 .small_image h3
 {
     font-weight: bold;
 }
-
-h1 
-{
+h1 {
     font-family: "fa-solid-900";
     font-weight: bold;
     font-size: 4em;
-    text-shadow: 1px 1px 2px;
+    text-shadow: -1px -1px #000,
+                 0 1px 0 #444;
     color: #000;
- 
-}
+    transition: all 1s;
+    }
+    h1:hover {
+      text-shadow: -1px -1px rgba(255, 174, 0,0.2),
+                 0 1px 0 #444;
+      color:rgba(31, 31, 31, 0.4);
+      }
+  
+
 .inform h3
 {
     font-family: 'Anton', sans-serif;
@@ -117,4 +144,25 @@ h2
 #center
 {
     margin-top: -80px;
+}
+@media (max-width:1400px)
+{
+    .headerImage
+    {
+        height: 400px;
+    }
+}
+@media (max-width:768px)
+{
+    .headerImage
+    {
+        height: 350px;
+    }
+}
+@media (max-width:100px)
+{
+    .headerImage
+    {
+        height: 50px;
+    }
 }
