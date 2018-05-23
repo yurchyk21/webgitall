@@ -17,20 +17,39 @@
 }
 
 .side{
-    margin-top: 0px;
+    padding: 2em;
+    margin-bottom: 3em;
     background-color: black;
     width:100%;
-    padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .side h3{
-    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 0em;
     font-weight: bold;
     color: white;
 }
+.side ul {
+    list-style-type: none;
+    padding: 0em;
+    margin-bottom: 40px;
+  }
+  .side ul li{
+      
+      font-size: 17px;
+  }
 .side ul li span:first-child { 
     color: grey;
 }
 .side ul li span:nth-child(2) { 
     color: white;
+}
+.side p{
+    margin-top: 1em;
+}
+.btn-buy{
+    border-radius: 1em;
+    font-size: 20px;
+    font-weight: bold;
 }
