@@ -81,6 +81,18 @@ button:hover
     font-size: 5em;
     transition: all 1s;
 }
+.footerimg
+{
+    height: 250px;
+    background-image:url("/images/header.jpg");
+    background-position: 50%;
+    -moz-background-inline-policy:"0.5";
+    position: relative;
+}
+.footer
+{
+    height: 300px;
+}
 .Size_Up:hover
 {
     font-size: 6em;
