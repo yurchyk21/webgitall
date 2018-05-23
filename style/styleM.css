@@ -76,13 +76,13 @@ button:hover
     size:90%;
     transition: all 1s;
 }
-.icon i
+i
 {
     font-size: 5em;
     transition: all 1s;
 
 }
-.icon i:hover
+i:hover
 {
     font-size: 6em;
     transition: all 1s;
@@ -144,4 +144,25 @@ h2
 #center
 {
     margin-top: -80px;
+}
+@media (max-width:1400px)
+{
+    .headerImage
+    {
+        height: 400px;
+    }
+}
+@media (max-width:768px)
+{
+    .headerImage
+    {
+        height: 350px;
+    }
+}
+@media (max-width:100px)
+{
+    .headerImage
+    {
+        height: 50px;
+    }
 }
