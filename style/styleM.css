@@ -56,6 +56,15 @@
     color: white;
 
 }
+.fa-gradient {
+	background: -webkit-gradient(linear, left top, left bottom, from(#DC2F2F), to(#9870FC));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.icon i
+{
+    font-size: 5em;
+}
 .small_image h3
 {
     font-weight: bold;
@@ -66,6 +75,13 @@
     font-family: "fa-solid-900";
     font-size: 60px;
     text-shadow: 2px 2px 4px;
+}
+h3
+{
+    font-family: 'Anton', sans-serif;
+    color: #000; 
+
+    line-height: 1.5;
 }
 h2
 {
