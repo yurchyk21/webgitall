@@ -1,1 +1,31 @@
 #success_message{ display: none;}
+
+body {
+background-image: url("../images/login-semi-interior.jpg");
+background-size: cover;
+}
+
+.form-horizontal {
+border: none;
+	opacity: 0.9;
+	background: none;
+		
+}
+
+br{
+border: 15em;
+
+}
+label {
+	/* color:red;
+	font-weight:bold;
+	text-transform: capitalize; */
+	/* font-size: 12px;
+	background: -webkit-linear-gradient(hsl(135, 92%, 47%), #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent */
+	background: linear-gradient(green, red);  /* подробнее про градиенты */ 
+	-webkit-background-clip: text;  /* подробнее про background-clip */ 
+	color: transparent;
+
+}
