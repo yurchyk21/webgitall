@@ -57,9 +57,9 @@
     font-size: 20px;
     font-weight: bold;
 }
-.descr{
 
-}
+
+
 .descr p {
     font-family: "Poppins", Arial, sans-serif;
     line-height: 1.5;
@@ -70,4 +70,9 @@
 }
 .descr h3{
     font-weight: 300;
+}
+.carsinfo-check-list ul{
+    list-style-type: none;
+    padding: 0em;
+    font-size: 4em;
 }
