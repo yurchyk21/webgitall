@@ -36,14 +36,14 @@
 
 .row-header
 {
-    background-size: 1920px;
+
     background-color: rgba(245, 245, 245, 0.2);
     height: 100px ;
     width: 100%;
-    background-position-x: 50%;
+
     background-repeat: repeat-x;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     box-shadow: 1px 5px 5px;
 } 
 .small_image
@@ -61,6 +61,7 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
 .icon i
 {
     font-size: 5em;
@@ -69,18 +70,20 @@
 {
     font-weight: bold;
 }
-.Title
+
+h1 
 {
-    color: black;
     font-family: "fa-solid-900";
-    font-size: 60px;
-    text-shadow: 2px 2px 4px;
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow: 1px 1px 2px;
+    color: #000;
+ 
 }
-h3
+.inform h3
 {
     font-family: 'Anton', sans-serif;
     color: #000; 
-
     line-height: 1.5;
 }
 h2
@@ -94,22 +97,19 @@ h2
 {
     background-color: aliceblue;
 }
-.inform_center
+.inform_center, .inform_center row
 {
     margin-top: 100px;
 }
-.container div
-{
-    z-index: 1;
-}
+
 
 
 .headerImage 
 {
     
-    background-position-x: 50%;
+
     background-size: cover;
-    z-index: 1;
+
     background-image:url("/images/header.jpg");
     background-repeat: no-repeat;
     height:700px;
