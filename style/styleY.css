@@ -21,8 +21,7 @@
     margin-bottom: 3em;
     background-color: black;
     width:100%;
-   
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .side h3{
     font-size: 20px;
@@ -47,9 +46,28 @@
 }
 .side p{
     margin-top: 1em;
+    font-size: 17px;
+    color: grey;
+}
+.side img{
+    width: 100%;
 }
 .btn-buy{
     border-radius: 1em;
     font-size: 20px;
     font-weight: bold;
+}
+.descr{
+
+}
+.descr p {
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 3em;
+}
+.descr h3{
+    font-weight: 300;
 }
