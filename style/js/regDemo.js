@@ -1,3 +1,26 @@
+
+
+$(function()
+{
+$(".form-group").hover(
+function()
+{
+$('body').css('background-image','url("../../images/login-semi-interior.jpg")');
+},
+
+function(){
+    $('body').css('background-image','url("../../images/roadster-dontpanic.jpg")');
+
+}
+
+
+);
+
+
+
+
+
+
 $(document).ready(function() {
     $('#contact_form').bootstrapValidator({
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
@@ -106,3 +129,7 @@ $(document).ready(function() {
             }, 'json');
         });
 });
+
+
+}
+);
