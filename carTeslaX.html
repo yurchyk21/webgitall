@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/css/bootstrap.css">
+    <link rel="stylesheet" href="style/about.css">
     <link rel="stylesheet" href="style/styleM.css">
     <link rel="stylesheet" href="style/styleY.css">
     <link rel="stylesheet" href="style/css/fontawesome-all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/about.css">
     <!-- <script src="style/js/jquery.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
     <script src="style/js/teslaX.js"></script>
+    <script src="style/js/bootstrap.js"></script>
 
     <title>Tesla Model X</title>
 </head>
@@ -22,11 +23,7 @@
         <div class="container">
                 <div class="container" style="position: absolute;">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-3 col-xs-3">
-                            <h1>
-                                TESLA X
-                            </h1>
-                        </div>
+                        
                         <div type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
                             <span class="icon-bar mini-menu"></span>
                             <span class="icon-bar mini-menu"></span>
@@ -59,7 +56,7 @@
 
                     </div>
                     <div class="cent">
-                        <div class="contact">TESLA MODEL X</div>
+                        <div class="contact greycolorname">TESLA MODEL X</div>
                     </div>
                 </div>
         
@@ -87,7 +84,35 @@
                         </p>
                     </div>
                     <div class="car-img">
-                        <img src="" alt="Tesla Model Storage" width="100%"  srcset="https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/modelx/utility/seating-gallery-6@2.jpg">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="item active">
+                                        <img srcset="https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/modelx/utility/seating-gallery-6@2.jpg" alt="First slide">
+                                      </div>
+                                      <div class="item">
+                                        <img  srcset="https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/modelx/utility/seating-gallery-7@2.jpg" alt="Second slide">
+                                      </div>
+                                      <div class="item">
+                                        <img  srcset="https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/modelx/utility/seating-gallery-5@2.jpg" alt="Third slide">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control left" href="#carouselExampleIndicators"  data-slide="prev">
+                                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                     
+                                    </a>
+                                    <a class="carousel-control right" href="#carouselExampleIndicators" data-slide="next">
+                                      <span class="glyphicon glyphicon-chevron-right" ></span>
+                                      
+                                    </a>
+                                  </div>    
+                        
+                        
+                        <!-- <img src="" alt="Tesla Model Storage" width="100%"  srcset="https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/modelx/utility/seating-gallery-6@2.jpg"> -->
                     </div>
                     <div class="descr">
                         <h3>Seating for up to Seven</h3>
