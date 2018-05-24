@@ -14,8 +14,19 @@
 .car-img{
     padding: 0px;
 
-}
 
+}
+#car_bagage1{
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 15px; 
+    padding-top:0;
+}
+.pointer:hover{
+cursor: pointer;
+}
 .side{
     padding: 2em;
     margin-bottom: 3em;
