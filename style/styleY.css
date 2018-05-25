@@ -13,9 +13,27 @@
 
 .car-img{
     padding: 0px;
-
+}
+.carosel-img{
+    width: 100%;
+    display: block;
+}
+.greycolorname{
+    color: rgba(37, 131, 138, 0.76);
+    opacity: 0.7;
 }
 
+#car_bagage1{
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 15px; 
+    padding-top:0;
+}
+.pointer:hover{
+cursor: pointer;
+}
 .side{
     padding: 2em;
     margin-bottom: 3em;
@@ -56,8 +74,14 @@
     border-radius: 1em;
     font-size: 20px;
     font-weight: bold;
+    background: rgba(37, 131, 138, 0.76);
+    border: black;
 }
-
+.btn-buy:hover{
+    background: white;
+    color: black;
+    transition: all 1s;
+}
 
 
 .descr p {
