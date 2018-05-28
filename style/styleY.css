@@ -13,24 +13,107 @@
 
 .car-img{
     padding: 0px;
-
+}
+.carosel-img{
+    width: 100%;
+    display: block;
+}
+.greycolorname{
+    color: rgba(37, 131, 138, 0.76);
+    opacity: 0.7;
 }
 
+#car_bagage1{
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 15px; 
+    padding-top:0;
+}
+.pointer:hover{
+cursor: pointer;
+}
 .side{
-    margin-top: 0px;
+    padding: 2em;
+    margin-bottom: 3em;
     background-color: black;
     width:100%;
-    padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .side h3{
-    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 0em;
     font-weight: bold;
     color: white;
 }
+.side ul {
+    list-style-type: none;
+    padding: 0em;
+    margin-bottom: 40px;
+  }
+  .side ul li{
+      
+      font-size: 17px;
+  }
 .side ul li span:first-child { 
     color: grey;
 }
 .side ul li span:nth-child(2) { 
     color: white;
+}
+.side p{
+    margin-top: 1em;
+    font-size: 17px;
+    color: grey;
+}
+.side img{
+    width: 100%;
+}
+.btn-buy{
+    border-radius: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(37, 131, 138, 0.76);
+    border: black;
+}
+.btn-buy:hover{
+    background: white;
+    color: black;
+    transition: all 1s;
+}
+
+
+.descr p {
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 3em;
+}
+.descr h3{
+    font-weight: 300;
+}
+.carsinfo-check-list{
+    color: grey;
+
+}
+.carsinfo-check-list ul{
+    list-style-type: none;
+    padding: 0em;
+}
+.carsinfo-check-list ul li i{
+    float: left;
+    margin-right: 10px;
+    color: rgb(63, 63, 63);
+    
+}
+.carsinfo-check-list ul li h3{
+    margin:0;
+    padding-top:10px; 
+    
+}
+.carsinfo-check-list ul li{
+margin-bottom: 40px;
 }

@@ -1,5 +1,16 @@
-body
+
+#center span small
 {
+    font-size: 10px;
+}
+.text-center
+{
+    text-align: center;
+
+}
+.inform
+{
+<<<<<<< HEAD
     padding: 0px;
     margin: 0px;
     height: 100%;
@@ -12,168 +23,169 @@ html {
     z-index: -2;
 	background: 
 		linear-gradient(rgba(155, 89, 182, 0.6),  rgba(245, 245, 245, 0.2));   
+=======
+    margin-bottom: 30px;
+    position: relative;
+    background: #f2f3f7;
+    padding: 20px;
+    z-index: 0;
+}
+#center span
+{
+    background: linear-gradient(45deg, #DC2F2F 0%, #9870FC 100%);
+    display: block;
+    border-top-left-radius : 30px;
+    border-top-right-radius : 30px;
+    height: 75px;
+    width: 75px;
+    padding-top: 3%;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+#center h3
+{
+    margin-bottom: 20px;
+>>>>>>> 100ca7abf8be8976a7273c721d1ad6e14a230c19
 }
 
 .row-header
 {
-    background-size: 1920px;
+
     background-color: rgba(245, 245, 245, 0.2);
     height: 100px ;
     width: 100%;
-    background-position-x: 50%;
     background-repeat: repeat-x;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     box-shadow: 1px 5px 5px;
 } 
-.Title
+.small_image:hover
 {
-    color: black;
+    background-size: 120%;
+    transition: all 1s;
+}
+.small_image
+{
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    transition: all 1s;
+
+}
+.fa-gradient {
+	background: -webkit-gradient(linear, left top, left bottom, from(#DC2F2F), to(#9870FC));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+button
+{
+    size:100%;
+    transition: all 1s;
+}
+button:hover
+{
+    size:90%;
+    transition: all 1s;
+}
+.Size_Up
+{
+    font-size: 5em;
+    transition: all 1s;
+}
+.footerimg
+{
+    height: 250px;
+    background-image:url("/images/header.jpg");
+    background-position: 50%;
+    -moz-background-inline-policy:"0.5";
+    position: relative;
+}
+.footer
+{
+    height: 300px;
+}
+.Size_Up:hover
+{
+    font-size: 6em;
+    transition: all 1s;
+}
+
+.small_image h3
+{
+    font-weight: bold;
+}
+h1 {
     font-family: "fa-solid-900";
-    font-size: 60px;
-    text-shadow: 2px 2px 4px;
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow: -1px -1px #000,
+                 0 1px 0 #444;
+    color: rgba(245, 245, 245, 0.8);
+   
+    }
+
+  
+
+.inform h3
+{
+    font-family: 'Anton', sans-serif;
+    color: #000; 
+    line-height: 1.5;
+}
+h2
+{
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    margin: 0 0 20px 0;
+    line-height: 1.5;
 }
 .mini-menu
 {
     background-color: aliceblue;
 }
-
-.container div
+.inform_center, .inform_center row
 {
-    z-index: 1;
+    margin-top: 100px;
 }
+
 
 
 .headerImage 
 {
     
-    background-position-x: 50%;
-    background-size: 100%;
-    z-index: 1;
+
+    background-size: cover;
+
     background-image:url("/images/header.jpg");
     background-repeat: no-repeat;
     height:700px;
 }
-@media (min-width:1901px)
+#center
 {
-    .center 
-    {
-        margin-top:-1%;
-    }
-}
-@media (max-width:1900px)
-{
-    .center 
-    {
-        margin-top:-3%;
-    }
-}
-@media (max-width:1800px)
-{
-    .center 
-    {
-        margin-top:-6%;
-    }
-}
-@media (max-width:1700px)
-{
-    .center 
-    {
-        margin-top:-9%;
-    }
-}
-@media (max-width:1600px)
-{
-    .center 
-    {
-        margin-top:-12%;
-    }
-}
-@media (max-width:1500px)
-{
-    .center 
-    {
-        margin-top:-15%;
-    }
+    margin-top: -80px;
 }
 @media (max-width:1400px)
 {
-    .center 
+    .headerImage
     {
-        margin-top:-19%;
+        height: 400px;
     }
 }
-@media (max-width:1300px)
+@media (max-width:768px)
 {
-    .center 
+    .headerImage
     {
-        margin-top:-23%;
+        height: 350px;
     }
 }
-@media (max-width:1200px)
+@media (max-width:100px)
 {
-    .center 
+    .headerImage
     {
-        margin-top:-29%;
+        height: 50px;
     }
-}
-@media (max-width:1100px)
-{
-    .center 
-    {
-        margin-top:-33%;
-    }
-}
-@media (max-width:1000px)
-{
-    .center 
-    {
-        margin-top:-40%;
-    }
-}
-@media (max-width:900px)
-{
-    .center 
-    {
-        margin-top:-45%;
-    }
-}
-@media (max-width:800px)
-{
-    .center 
-    {
-        margin-top:-61%;
-    }
-}
-@media (max-width:700px)
-{
-    .center 
-    {
-        margin-top:-83%;
-    }
-}
-@media (max-width:600px)
-{
-    .center 
-    {
-        margin-top:-115%;
-    }
-}
-@media (max-width:500px)
-{
-    .center 
-    {
-        margin-top:-120%;
-    }
-}
-@media (max-width:400px)
-{
-    .center 
-    {
-        margin-top:-155%;
-    }
-}
-@media (max-width:300px)
-{
-   
 }
